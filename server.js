@@ -34,7 +34,7 @@ server.listen(port, function() {
 // speech to text token endpoint
 var sttAuthService = new watson.AuthorizationV1(
   {
-      username: '<username>, 
+      username: '<username>', 
       password: '<password>', 
       url : '<url>'
   }
